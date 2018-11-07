@@ -754,3 +754,59 @@ ul, li {
 		width: 100%;
 	}
 }
+
+
+@media only screen and (max-width : 320px) {
+	h1 {
+    font-size: 3.1em;
+    line-height: .9;
+}
+
+.qustion__block__button {
+    height: 46px;
+    width: 111px;
+}
+
+.advantages__title {
+    font-size: 1.4em;
+}
+
+.advantages {
+
+    padding: 20px 30px 10px;
+}
+
+.advantages__gallery__item__text {
+    font-size: 12px;
+    }
+
+    .advantages__gallery__item_1 {
+    height: 220px;
+    width: 126px;
+}
+	.advantages__gallery__item_2{
+    height: 220px;
+    width: 126px;
+}
+	.advantages__gallery__item_3 {
+    height: 220px;
+    width: 126px;
+}	
+	.advantages__gallery__item_4 {
+    height: 220px;
+    width: 126px;
+}
+	.advantages__gallery__item_5 {
+    height: 220px;
+    width: 126px;
+}
+	.advantages__gallery__item_6 {
+   	height: 220px;
+    width: 126px;
+}
+
+	.advantages {
+    min-height: 2200px;
+    background-position: 40% 51%, 40% 56%, 30% 100%;
+}
+	}    
