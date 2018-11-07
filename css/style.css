@@ -1,0 +1,756 @@
+*{
+		box-sizing: border-box;
+}
+header{
+	background: url('../pantomax_lp_new-assets/bg_m2.png'), url('../pantomax_lp_new-assets/bg_m.png');
+	background-position: 50% 0%, 50% 0%;
+	background-repeat: no-repeat;
+	background-color: #080300;
+	padding: 20px 0 0 20px;
+}
+.header__top{
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+}
+
+.info__effective__text, .info__natural__text{
+	font-family: 'PT Sans', sans-serif;
+	font-size: 1.724em;
+	color: rgb(237, 237, 237);
+	font-weight: bold;
+  	line-height: 0.97;
+}
+
+.info, .info__natural, .info__effective{
+	display: flex;
+	align-items: center;
+}
+
+.info__natural{
+	min-width: 215px;
+	justify-content: space-between;
+}
+
+.info__effective{
+	min-width: 235px;
+	justify-content: space-between;
+}
+
+.logo{
+	margin-right: 160px;
+}
+
+.info__natural{
+	margin-right: 20px;
+}
+
+sub{
+	font-weight: 100;
+	margin-left: 5px;
+}
+
+h1{
+	font-size: 4.1em;
+	font-weight: bold;
+	text-transform: uppercase;
+	line-height: .8;
+  	background: linear-gradient(to right, #f0e394, #b49b52);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  	margin: 20px 0;
+}
+
+.promo{
+	display: flex;
+	justify-content: space-around;
+}
+
+
+.promo__info{
+	max-width: 350px;
+}
+.promo__order{
+	max-width: 350px;
+}
+.promo__discount{
+	width: 33%;
+}
+.promo__info__title{
+	font-family: 'Roboto', sans-serif;
+	font-size: 1.375em;
+	color: rgb(255, 255, 255);
+	line-height: 1.2;
+	text-align: left;
+}
+
+.promo__info__list{
+	list-style: none;
+	font-family: 'PT Sans', sans-serif;
+  	color: rgb(255, 255, 255);
+  	font-weight: 100;
+  	line-height: 3.25;
+  	text-align: left;
+  	vertical-align: top;
+  	margin: 0;
+  	margin-left: 0;
+	
+}
+
+	
+
+ul, li {
+	margin: 0;
+	padding: 0;
+}
+
+.promo__info__list__item::after {
+
+    display: block;
+    content: "";
+    width: 100%;
+    height: 1px;
+    background: radial-gradient(circle at center, #fff, #000);
+
+}
+
+.promo__info__list__item{
+	font-size: 1em;
+    padding-left: 35px;
+	background: url('../pantomax_lp_new-assets/list.png') no-repeat;
+	background-position: 0 50%;
+}
+
+.promo__discount__text{
+	font-family: 'PT Sans', sans-serif;
+	font-size: 1.1875em;
+	color: rgb(255, 255, 255);
+  	line-height: 1.2;
+  	text-align: center;
+  	width: 75%;
+}
+
+.promo__discount{
+	align-self: flex-end;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.promo__order__counter{
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 30px;
+}
+.promo__order__counter__number{
+	width: 45px;
+	height: 55px;
+    font-size: 3.5em;
+	font-family: 'PT Sans', sans-serif;
+	color: rgba(0, 0, 0, 1);
+	font-weight: bold;
+	line-height: 1em;
+	text-align: center;
+	border-radius: 7px;
+	background: rgba(246, 246, 246, 1);
+	margin: 0;
+	margin-right: 10px;
+}
+
+.first__number{
+	background: rgba(246, 246, 246, 0.7);
+	color: rgba(0, 0, 0, 0.702);
+	box-shadow: 0px 2px 3px 0px rgba(27, 27, 27, 0.55),inset 0px 1px 2px 0px rgba(255, 255, 255, 0.15);
+}
+
+
+.promo__order__counter__text{
+	font-family: 'PT Sans', sans-serif;
+	font-size: 1.0625em;
+	color: rgb(255, 255, 255);
+  	line-height: 1;
+  	text-align: left;
+  	align-self: flex-end;
+  	margin-left: 10px;
+}
+
+.promo__order__form__top{
+	display: flex;
+	
+	margin-bottom: 20px;
+	height: 120px;
+}
+
+.promo__order__form__top__left{
+	width: 50%;
+	height: 100%;
+	padding: 15px 0 0 15px;
+}
+.promo__order__form__top__right{
+	padding: 15px 0 0 10px;
+}
+
+.promo__order__form{
+	width: 290px;
+	background: #fff;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+	border-radius: 7px;
+	background: url('../pantomax_lp_new-assets/bg1.png');
+	background-position: 50% 50%;
+}
+
+.full__price{
+	font-family: 'PT Sans', sans-serif;
+	font-size: 1.111375em;
+	color: rgba(255, 255, 255, 0.302);
+  	line-height: 1.2;
+  	text-align: left;
+}
+
+.full__price__num{
+  font-size: 2.2286875em;
+  font-family: 'PT Sans', sans-serif;
+  color: rgba(255, 255, 255, 0.302);
+  text-decoration: line-through;
+  line-height: 1.2;
+  text-align: left;
+}
+
+.full__sub{
+  font-size: 1.8em;
+  font-family: 'PT Sans', sans-serif;
+  color: rgba(255, 255, 255, 0.302);
+}
+.discount__price{
+	font-family: 'PT Sans', sans-serif;
+	font-size: 1.111375em;
+	color: rgba(255, 255, 255, 1);
+  	line-height: 1.2;
+  	text-align: left;
+}
+
+.discount__price__num{
+	font-size: 2.2286875em;
+  	font-family: 'PT Sans', sans-serif;
+  	color: rgba(255, 255, 255, 1);
+  	line-height: 1.2;
+  	text-align: left;
+}
+
+.promo__order__form__name{
+	width: 86%;
+	height: 55px;
+	border: 1px solid #e1e1e1;
+	border-radius: 6px;
+	padding-left: 10px;
+	background: #f6f6f6;
+	margin-bottom: 15px;
+}
+
+.promo__order__form__name::placeholder{
+  font-size: 0.875em;
+  font-family: "Open Sans";
+  color: rgb(146, 146, 146);
+  line-height: 55px;
+  text-align: left;
+}
+
+.promo__order__form__phone{
+	width: 86%;
+	height: 55px;
+	border: 1px solid #e1e1e1;
+	border-radius: 6px;
+	padding-left: 10px;
+	background: #f6f6f6;
+	margin-bottom: 20px;
+}
+
+.promo__order__form__phone::placeholder{
+	 font-size: 0.875em;
+  font-family: "Open Sans";
+  color: rgb(146, 146, 146);
+  line-height: 55px;
+  text-align: left;
+}
+
+.promo__order__form__button{
+	width: 90%;
+	height: 55px;
+	background: url('../pantomax_lp_new-assets/arrow_btn.png') no-repeat;
+	background-position: 0 50%;
+	background-color: #dc4118;
+	border: none;
+	border-radius: 6px;
+	font-size: 1.375em;
+  	font-family: 'PT Sans', sans-serif;
+  	color: rgb(255, 255, 255);
+  	font-weight: bold;
+  	text-transform: uppercase;
+  	line-height: 1.2;
+	padding-left: 50px;
+	letter-spacing: 0.003em;
+	box-shadow: 0px 5px 25px 0px rgba(250, 74, 27, 0.35);
+	margin-bottom: 25px;
+}
+
+.promo__order__form__bottom{
+	font-size: 0.8em;
+  	font-family: 'PT Sans', sans-serif;
+  	color: rgb(0, 0, 0);
+  	line-height: 1.2;
+  	text-align: left;
+  	margin-bottom: 20px;
+}
+
+.promo__order__form__icon{
+	margin-right: 10px;
+}
+
+.question{
+	text-align: center;
+	
+	padding: 60px 0;
+	background: url('../pantomax_lp_new-assets/bg2.png') no-repeat;
+	background-color: #080300;
+	background-position: 50% 50%;
+}
+
+
+.question__title{
+	font-size: 3.75em;
+ 	font-family: 'PT Sans', sans-serif;
+  	color: rgb(255, 255, 255);
+  	font-weight: bold;
+  	text-transform: uppercase;
+  	line-height: 1.083;
+  	margin: 0;
+  	letter-spacing: 0.01em;
+}
+
+.qustion__orange{
+	color: #fc481a;
+}
+
+.question__text{
+	font-size: 1.375em;
+  	font-family: 'PT Sans', sans-serif;
+  	color: rgb(255, 255, 255);
+  	line-height: 1;
+
+}
+
+.question__block{
+	width: 50%;
+	background: #fff;
+	margin: 0 auto;
+	padding: 30px 10px 50px;
+	border-radius: 10px;
+}
+
+.question__block__order{
+	display: inline-block;
+	border-radius: 50%;
+	background: #e5e5e5;
+	font-size: 1.875em;
+  	font-family: 'PT Sans', sans-serif;
+  	color: rgb(0, 0, 0);
+  	font-weight: bold;
+  	text-transform: uppercase;
+  	line-height: 1.875;
+  	width: 60px;
+  	height: 60px;
+  	margin-right: 20px;
+}
+
+.question__block__ask{
+	font-size: 1.875em;
+  	font-family: 'PT Sans', sans-serif;
+  	color: rgb(0, 0, 0);
+  	font-weight: bold;
+  	text-transform: uppercase;
+  	line-height: 1.733;
+}
+
+.question__block__top{
+	margin-bottom: 50px;
+}
+
+.qustion__block__button{
+	height: 80px;
+	border: none;
+	width: 260px;
+	background: url('../pantomax_lp_new-assets/button.png') no-repeat;
+	background-position: 50% 50%;
+	font-size: 1.5em;
+  	font-family: 'PT Sans', sans-serif;
+  	color: rgb(255, 255, 255);
+  	font-weight: bold;
+  	text-transform: uppercase;
+    line-height: 2.167;
+    border-radius: 7px;
+}
+
+.question__block__bottom{
+	width: 80%;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+}
+
+.nuts{
+	width: 100%;
+	background: #fff;
+	padding: 30px 0 40px 40px;
+	background: url('../pantomax_lp_new-assets/bg_girl.png') no-repeat;
+	background-position: 150% 50%;
+}
+
+.nuts__title{
+  font-size: 3.75em;
+  font-family: 'PT Sans', sans-serif;
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 1.083;
+  text-align: left;
+  width: 70%;
+  margin: 20px 0;
+}
+
+.title__orange{
+	color: #fc481a;
+}
+
+.nuts__text{
+	font-size: 1.0625em;
+  	 font-family: 'PT Sans', sans-serif;
+  	color: rgb(0, 0, 0);
+  	text-align: left;
+  	width: 65%;
+}
+
+.nuts__text__first{
+	font-weight: bold;
+   	text-transform: uppercase;
+}
+
+.advantages{
+	width: 100%;
+	padding: 20px 40px 10px;
+    background: url('../pantomax_lp_new-assets/product1.png'), url('../pantomax_lp_new-assets/bg__floor.png'), url('../pantomax_lp_new-assets/bg_l.png');
+    background-position: 16% 29%, 0% 50%, 50% 100%;
+    background-repeat:  no-repeat,  no-repeat;
+    background-color: #080300;
+}
+
+.advantages__content{
+	width: 100%;
+	display: flex;
+	align-items: flex-end;
+	justify-content: flex-end;
+	margin-bottom: 50px;
+}
+
+.advantages__gallery{
+	min-height: 530px;
+	width: 50%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	-ms-align-self: flex-end;
+	align-self: flex-end;
+	align-content: space-between;
+}
+
+.advantages__gallery__item_1{
+	height: 250px;
+	width: 200px;
+	border-radius: 7px;
+	background: url('../pantomax_lp_new-assets/1.jpg') no-repeat;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+	padding-bottom: 20px;
+}
+
+.advantages__gallery__item_2{
+	height: 250px;
+	width: 200px;
+	border-radius: 7px;
+	background: url('../pantomax_lp_new-assets/2.jpg') no-repeat;
+		display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+	padding-bottom: 10px;
+}
+.advantages__gallery__item_3{
+	height: 250px;
+	width: 200px;
+	border-radius: 7px;
+	background: url('../pantomax_lp_new-assets/3.jpg') no-repeat;
+		display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+	padding-bottom: 10px;
+}
+.advantages__gallery__item_4{
+	height: 250px;
+	width: 200px;
+	border-radius: 7px;
+	background: url('../pantomax_lp_new-assets/4.jpg') no-repeat;
+		display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+	padding-bottom: 10px;
+}
+.advantages__gallery__item_5{
+	height: 250px;
+	width: 200px;
+	border-radius: 7px;
+	background: url('../pantomax_lp_new-assets/5.jpg') no-repeat;
+		display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+	padding-bottom: 10px;
+}
+.advantages__gallery__item_6{
+	height: 250px;
+	width: 200px;
+	border-radius: 7px;
+	background: url('../pantomax_lp_new-assets/6.jpg') no-repeat;
+		display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+	padding-bottom: 10px;
+}
+.advantages__gallery__item__text{
+	font-size: 16px;
+  	 font-family: 'PT Sans', sans-serif;
+  	color: rgb(11, 11, 11);
+  	font-weight: bold;
+  	line-height: 1.2;
+  	text-align: center;
+  	margin: 0 auto;
+  	width: 60%;
+  	align-self: flex-end; 
+}
+
+
+.advantages__title{
+  font-size: 3.4em;
+  font-family: 'PT Sans', sans-serif;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 1.2;
+  text-align: left;
+  letter-spacing: 0.01em;
+  margin: 0;
+  margin-bottom: 20px;
+}
+
+.title__thin{
+	font-weight: 400;
+}
+
+.recomendation{
+	padding: 20px 30px;
+	width: 90%;
+	background: url('../pantomax_lp_new-assets/doctor.png') no-repeat;
+	background-position: 103% 50%;
+	background-color: #fff;
+	margin-left: 135px;
+	border-radius: 10px;
+}
+
+.recomendation__title{
+	font-size: 3.75em;
+  font-family: 'PT Sans', sans-serif;
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 1.083;
+  text-align: left;
+  margin: 0;
+  letter-spacing: 0.001em;
+}
+
+.recomendation__paragraph{
+	font-size: 1em;
+  	font-family: 'PT Sans', sans-serif;
+  	color: rgb(0, 0, 0);
+  	width: 70%;
+}
+
+.recomendation__sign__text{
+	font-size: 1em;
+  	font-family: 'PT Sans', sans-serif;
+  	color: rgb(0, 0, 0);
+	font-style: italic;
+	font-weight: bold;
+
+}
+
+.recomendation__sign{
+	display: flex;
+	align-items: center;
+}
+
+.sign{
+	margin-left: 40px;
+}
+
+@media only screen and (max-width : 375px) {
+	.logo{
+		max-width: 300px;
+	}
+
+	.header__top {
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+	}
+	.info{
+
+		flex-direction: column;
+	}
+	header{
+		background: url('../pantomax_lp_new-assets/bg_m.png');
+	    background-position: 0% 50%;
+	background-repeat: no-repeat;
+	background-color: #080300;
+		}
+
+	.promo {
+
+    flex-direction: column;
+		}	
+	.promo__discount {
+    align-self: center;
+    width: 70%;
+    margin-bottom: 20px;
+    	}	
+    .promo__discount__text {
+    width: 100%;
+		}
+	.promo__order {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+	}	
+	.question__title {
+    font-size: 1.75em;
+    	}
+    	.question__block {
+    width: 90%;
+    padding: 20px 0px 20px;
+	}
+	.question__block__order {
+    border-radius: 50%;
+    font-size: 1.1em;
+    line-height: 1.6em;
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+		}
+	.question__block__ask {
+    font-size: 1.1em;
+     	}
+     .question__block__top {
+    margin-bottom: 25px;
+	 }
+	 .qustion__block__button {
+    height: 55px;
+    width: 120px;
+    background: url(../pantomax_lp_new-assets/button.png) no-repeat;
+    font-size: 1.1em;
+	}
+	.nuts {
+    width: 100%;
+    background: #fff;
+    padding: 12px 0 20px 25px;
+    background: none;
+		}
+	.nuts__title {
+    font-size: 2.1em;
+		}
+
+	.nuts__text {
+    width: 100%;
+ 		}
+ 	.advantages__title {
+    font-size: 2.4em;
+		}
+	.advantages{
+		min-height: 2200px;
+    background-position: 25% 54%, 40% 60%, 30% 100%;
+		}
+	.advantages__content{
+		margin-bottom: 600px;
+	}	
+
+	.advantages__gallery__item__text {
+        width: 93%;
+		}	
+
+	.advantages__gallery {
+    width: 100%;
+    min-height: 740px;
+		}
+	.advantages__gallery__item_1 {
+    height: 235px;
+    width: 135px;
+    padding-bottom: 6px;
+		}
+	.advantages__gallery__item_2 {
+    height: 235px;
+    width: 135px;
+    padding-bottom: 6px;
+		}
+		.advantages__gallery__item_3 {
+    height: 235px;
+    width: 135px;
+    padding-bottom: 6px;
+		}
+		.advantages__gallery__item_4 {
+    height: 235px;
+    width: 135px;
+    padding-bottom: 6px;
+		}
+		.advantages__gallery__item_5 {
+    height: 235px;
+    width: 135px;
+    padding-bottom: 6px;
+		}
+	.advantages__gallery__item_6 {
+    height: 235px;
+    width: 135px;
+    padding-bottom: 6px;
+		}	
+	.recomendation {
+    padding: 10px 20px;
+    width: 100%;
+	background: none;
+	background: #fff;
+    margin-left: 0;
+    border-radius: 10px;
+	}	
+	.recomendation__paragraph {
+    width: 95%;
+	}
+	.recomendation__sign {
+    flex-direction: column;
+	}
+	.sign {
+    margin-left: 0;
+	}
+	*{
+		overflow-x: : hidden;
+	}
+	.promo__info__img{
+		width: 100%;
+	}
+}
